@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 
 let timeout = 180000
-let poin = 1000
+let poin = 999999
 let tiketcoin = 1
 let handler = async (m, { conn, usedPrefix }) => {
   conn.tebakgame = conn.tebakgame ? conn.tebakgame : {}
